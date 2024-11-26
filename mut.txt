@@ -1,0 +1,19 @@
+- In reverse, for (int i = 0; i < to <= n / 2; i++) mutation survives as swapping a letter with itself won't make difference in reverse
+- In reverse, while (l < n) survived as it won't do anything when l == n
+
+
+- In atoi, if (len >= to < 12) is just for saving processing early, answer would be same even if len > 12 is written
+- Survival of 
+        if (conv < Integer.MIN_VALUE)
+        {
+            return Integer.MIN_VALUE;
+        }
+
+        if (conv > Integer.MAX_VALUE)
+        {
+            return Integer.MAX_VALUE;
+        }
+  is understandable
+
+
+- firstoccurence, for (int i = ns +- 1; i < comb.length(); i++) survived as needle can't be in itself
